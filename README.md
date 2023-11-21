@@ -1,11 +1,11 @@
 ## PyPassword Generator
 
 [![Python](https://img.shields.io/badge/Python-3.8-blue.svg)](https://www.python.org/)
-[![Unit Tests](https://img.shields.io/badge/Unit%20Tests-passing-brightgreen.svg)](https://github.com/your-username/your-repository/actions)
+[![Unit Tests](https://img.shields.io/badge/Unit%20Tests-passing-brightgreen.svg)](https://github.com/akumarm23/Day5-Password-Generator/actions)
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://github.com/akumarm23/Day5-Password-Generator/workflows/CI/badge.svg)](https://github.com/your-username/your-repository/actions)
-[![Code Coverage](https://codecov.io/gh/akumarm23/Day5-Password-Generator/branch/main/graph/badge.svg)](https://codecov.io/gh/your-username/your-repository)
-[![Code Climate](https://codeclimate.com/github/akumarm23/Day5-Password-Generator/badges/gpa.svg)](https://codeclimate.com/github/your-username/your-repository)
+[![Build Status](https://github.com/akumarm23/Day5-Password-Generator/workflows/Build%20and%20Test/badge.svg)](https://github.com/akumarm23/Day5-Password-Generator/actions)
+[![Code Coverage](https://codecov.io/gh/akumarm23/Day5-Password-Generator/branch/main/graph/badge.svg)](https://codecov.io/gh/akumarm23/Day5-Password-Generator)
+[![Code Climate](https://codeclimate.com/github/akumarm23/Day5-Password-Generator/badges/gpa.svg)](https://codeclimate.com/github/akumarm23/Day5-Password-Generator)
 [![Version](https://img.shields.io/badge/Version-1.0-brightgreen.svg)](https://github.com/akumarm23/Day5-Password-Generator/releases)
 
 ## Introduction
