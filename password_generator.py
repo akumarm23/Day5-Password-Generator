@@ -4,6 +4,7 @@
 
 import random
 import string
+import sys
 
 def generate_password(nr_letters, nr_symbols, nr_numbers):
     letters = list(string.ascii_lowercase + string.ascii_uppercase)
