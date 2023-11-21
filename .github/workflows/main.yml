@@ -25,4 +25,5 @@ jobs:
         
 
     - name: Run password generator
-      run: python main.py  # Replace with the actual name of your Python script
+      run: python main.py 8 4 4  # Replace with your desired numbers
+
