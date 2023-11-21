@@ -5,6 +5,8 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Build Status](https://github.com/akumarm23/Day5-Password-Generator/workflows/Build/badge.svg)](https://github.com/akumarm23/Day5-Password-Generator/actions)
 [![Version](https://img.shields.io/badge/Version-1.0-brightgreen.svg)](https://github.com/akumarm23/Day5-Password-Generator/releases)
+[![Codecov](https://codecov.io/gh/akumarm23/Day5-Password-Generator/branch/main/graph/badge.svg)](https://codecov.io/gh/akumarm23/Day5-Password-Generator)
+
 
 ## Introduction
 
