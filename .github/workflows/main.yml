@@ -27,3 +27,8 @@ jobs:
     - name: Run password generator
       run: python password_generator.py 8 4 4  # Replace with your desired numbers
 
+    - name: Upload coverage reports to Codecov
+      uses: codecov/codecov-action@v3
+      env:
+        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+
