@@ -1,3 +1,43 @@
+#VERSION 3.0 - using functions
+
+# password_generator.py
+
+import random
+import string
+
+def generate_password(nr_letters, nr_symbols, nr_numbers):
+    letters = list(string.ascii_lowercase + string.ascii_uppercase)
+    numbers = list(map(str, range(10)))
+    symbols = ['!', '@', '#', '$', '%', '&', '+', '*', '(', ')']
+
+    password_list = []
+
+    for char in range(nr_letters):
+        password_list.append(random.choice(letters))
+
+    for char in range(nr_symbols):
+        password_list += random.choice(symbols)
+
+    for char in range(nr_numbers):
+        password_list += random.choice(numbers)
+
+    random.shuffle(password_list)
+
+    password = "".join(password_list)
+    return password
+
+if __name__ == "__main__":
+   if len(sys.argv) != 4:
+        print("Usage: python password_generator.py <nr_letters> <nr_symbols> <nr_numbers>")
+        sys.exit(1)
+
+    nr_letters = int(sys.argv[1])
+    nr_symbols = int(sys.argv[2])
+    nr_numbers = int(sys.argv[3])
+
+    generated_password = generate_password(nr_letters, nr_symbols, nr_numbers)
+    print(f"Your password is: {generated_password}")
+
 # #Password Generator Project
 # import random
 # import string
@@ -97,41 +137,5 @@
 # print(f"Your password is: {password}")
 
 
-#VERSION 3.0 - using functions
-
-# password_generator.py
-
-import random
-import string
-
-def generate_password(nr_letters, nr_symbols, nr_numbers):
-    letters = list(string.ascii_lowercase + string.ascii_uppercase)
-    numbers = list(map(str, range(10)))
-    symbols = ['!', '@', '#', '$', '%', '&', '+', '*', '(', ')']
-
-    password_list = []
-
-    for char in range(nr_letters):
-        password_list.append(random.choice(letters))
-
-    for char in range(nr_symbols):
-        password_list += random.choice(symbols)
-
-    for char in range(nr_numbers):
-        password_list += random.choice(numbers)
-
-    random.shuffle(password_list)
-
-    password = "".join(password_list)
-    return password
-
-if __name__ == "__main__":
-    print("Welcome to the PyPassword Generator!")
-    nr_letters = int(input("How many letters would you like in your password?\n"))
-    nr_symbols = int(input("How many symbols would you like?\n"))
-    nr_numbers = int(input("How many numbers would you like?\n"))
-
-    generated_password = generate_password(nr_letters, nr_symbols, nr_numbers)
-    print(f"Your password is: {generated_password}")
 
 
