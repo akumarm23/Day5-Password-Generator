@@ -22,7 +22,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt  # If you have any requirements, otherwise remove this line
+        
 
     - name: Run password generator
       run: python main.py  # Replace with the actual name of your Python script
