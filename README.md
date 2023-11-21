@@ -1,5 +1,9 @@
 ## PyPassword Generator
 
+[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
+[![Unit Tests](https://img.shields.io/badge/Unit%20Tests-passing-brightgreen.svg)](https://github.com/your-username/your-repository/actions)
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 ## Introduction
 
 This Python script generates secure and customizable passwords by combining lowercase and uppercase letters, numbers, and symbols. Users are prompted to input the desired number of letters, symbols, and numbers for the password.
