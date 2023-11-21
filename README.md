@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8-blue.svg)](https://www.python.org/)
 [![Unit Tests](https://img.shields.io/badge/Unit%20Tests-passing-brightgreen.svg)](https://github.com/akumarm23/Day5-Password-Generator/actions)
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://github.com/akumarm23/Day5-Password-Generator/workflows/Build%20and%20Test/badge.svg)](https://github.com/your-username/your-repository/actions)
+[![Build Status](https://github.com/akumarm23/Day5-Password-Generator/workflows/Build%20and%20Test/badge.svg)](https://github.com/akumarm23/Day5-Password-Generator/actions)
 [![Version](https://img.shields.io/badge/Version-1.0-brightgreen.svg)](https://github.com/akumarm23/Day5-Password-Generator/releases)
 
 ## Introduction
@@ -20,15 +20,19 @@ This Python script generates secure and customizable passwords by combining lowe
 
 1. **Clone or Download:**
    Clone the repository or download the script to your local machine.
+   
    ```
    git clone https://github.com/your-username/PyPassword-Generator.git](https://github.com/akumarm23/Day5-Password-Generator.git)
    cd PyPassword-Generator
    ```
-2. **Run the Script:**
+   
+3. **Run the Script:**
    Execute the script in a Python environment.
+   
     ```
    python password_generator.py <nr_letters> <nr_symbols> <nr_numbers>
     ```
+    
    Replace `<nr_letters>`, `<nr_symbols>`, and `<nr_numbers>` with the desired number of letters, symbols, and numbers in the password, respectively.
 
 ## Code Overview
@@ -63,6 +67,7 @@ The generated password is presented to the user.
 ## Testing
 
 The script includes unit tests to ensure its functionality. To run the tests locally, use the following command:
+
  ```
 python -m unittest test_password_generator.py
  ```
@@ -81,10 +86,3 @@ Feel free to use and modify this script for your password generation needs. Stay
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-The MIT License (MIT)
-=====================
-
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
-
