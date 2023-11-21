@@ -20,9 +20,9 @@ This Python script generates secure and customizable passwords by combining lowe
    ```
 2. **Run the Script:**
    Execute the script in a Python environment.
-
+    ```
    python password_generator.py <nr_letters> <nr_symbols> <nr_numbers>
-
+    ```
    Replace `<nr_letters>`, `<nr_symbols>`, and `<nr_numbers>` with the desired number of letters, symbols, and numbers in the password, respectively.
 
 ## Code Overview
@@ -57,8 +57,9 @@ The generated password is presented to the user.
 ## Testing
 
 The script includes unit tests to ensure its functionality. To run the tests locally, use the following command:
-
+ ```
 python -m unittest test_password_generator.py
+ ```
 
 ## GitHub Actions
 
@@ -71,4 +72,13 @@ This repository is configured with GitHub Actions to automatically run tests whe
 
 Feel free to use and modify this script for your password generation needs. Stay secure!
 
-This README file combines the details about the script, its usage, code overview, testing, and GitHub Actions. Please customize it further based on your project's specific details.
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+The MIT License (MIT)
+=====================
+
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+
