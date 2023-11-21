@@ -14,10 +14,10 @@ This Python script generates secure and customizable passwords by combining lowe
 
 1. **Clone or Download:**
    Clone the repository or download the script to your local machine.
-
-   git clone https://github.com/your-username/PyPassword-Generator.git
+   ```
+   git clone https://github.com/your-username/PyPassword-Generator.git](https://github.com/akumarm23/Day5-Password-Generator.git)
    cd PyPassword-Generator
-
+   ```
 2. **Run the Script:**
    Execute the script in a Python environment.
 
