@@ -27,7 +27,7 @@ def generate_password(nr_letters, nr_symbols, nr_numbers):
     return password
 
 if __name__ == "__main__":
-   if len(sys.argv) != 4:
+    if len(sys.argv) != 4:
         print("Usage: python password_generator.py <nr_letters> <nr_symbols> <nr_numbers>")
         sys.exit(1)
 
